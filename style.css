@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuHorizontal {
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+
+#menu {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#menuHorizontal div a {
+    font-family: "inter";
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    #menuHorizontal div a:hover {
+        color: #cccccc;
+    }
+
+#menuHorizontal button {
+    font-family: "Inter";
+    font-size: 20px;
+    font-family: 600;
+    margin-right: 5%;
+    width: 80px;
+    height: 40px;   
+    border: 0px;
+    color: #ffffff;
+    background-color: #0C70F2;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+}
