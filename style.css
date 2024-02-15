@@ -152,3 +152,93 @@
                 margin-top: 100px;
                 cursor: pointer;
             }
+
+    /* footer */
+    
+    footer {
+        width: 100%;
+        background-color: var(--azulDnc);
+    }
+
+        footer .line1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 330px;
+        }
+        
+        footer h5 {
+            text-align: center;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 18px;
+            font-family: var(--fontePadrao);
+            background-color: var(--pretoDnc);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        
+        footer ul li{
+            text-align: center;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 18px;
+            font-family: var(--fontePadrao);
+            margin: 20px 0px 20px 0px;
+        }
+
+        footer ul li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover{
+            color: var(--cinzaHover);
+        }
+
+        footer .address{
+            font-family: var(--fontePadrao);
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 800;
+            text-align: center;
+            
+        }
+
+        footer .line2{
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 10px;
+        }
+        
+        footer .line2 a{
+            font-family: var(--fontePadrao);
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer .line2 a:first-child{
+            border-right: 3px solid #ffffff;
+        }
+        
+        footer .line2 a:hover{
+            color: var(--cinzaHover);
+        }
